@@ -42,7 +42,7 @@ gulp.task('images', function() {
 });
 
 gulp.task('js', function() {
-  gulp.src('js/*/**')
+  gulp.src('js/**')
   .pipe(gulp.dest('build/js'))
   .pipe(livereload());
 });
