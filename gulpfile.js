@@ -20,6 +20,9 @@ app.listen('8080', function() {
 
 gulp.task('html', function() {
   gulp.src('pug/index.pug')
+    .pipe(data( function(file) {
+      return require('./data.json');
+    }))
     .pipe(pug({
       pretty: true
     }))

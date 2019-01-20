@@ -1,0 +1,60 @@
+body, html {
+  background: #fedd97;
+  height: 100%; }
+
+a, p, ul, li, h2 {
+  text-decoration: none;
+  font-family: 'Source Sans Pro'; }
+
+#main-container {
+  background: #2f292b;
+  margin-top: 30px;
+  border-radius: 7px; }
+
+#left-bar {
+  padding-left: 0; }
+
+#name, .sub-title {
+  text-align: center;
+  display: block; }
+
+#name {
+  font-size: 1.3em;
+  color: #fff;
+  margin-top: 40px;
+  font-weight: bold; }
+
+.sub-title {
+  color: #ababab;
+  margin-top: 0; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+ul#main-menu {
+  margin: 50px 0; }
+
+ul#main-menu li a {
+  background: #2f292b;
+  display: block;
+  width: 100%;
+  margin-left: 10px;
+  color: #ababab;
+  padding: 10px 20px; }
+
+ul#main-menu li#about {
+  background: #5fcbb0; }
+
+ul#main-menu li#experience {
+  background: #cb5f83; }
+
+ul#main-menu li#portfolios {
+  background: #5f8dcb; }
+
+ul#main-menu li#hire {
+  background: #cb5f5f; }
+
+menu li a:hover {
+  background: #493f43; }

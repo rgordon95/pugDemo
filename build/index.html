@@ -4,14 +4,54 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700">
     <title>Demo Pug Project</title>
   </head>
   <body>
+    <div class="row" id="main-container">
+      <div class="medium-3 columns" id="left-bar"></div><a id="name" hred="#">John Doe</a>
+      <p class="sub-title">Web, UI/UX, Developer</p>
+            <ul id="main-menu">
+              <li id="about"><a href="#">About Johnny</a></li>
+              <li id="experience"><a href="#">Experience</a></li>
+              <li id="portfolios"><a href="#">Portfolios</a></li>
+              <li id="hire"><a href="#">Hire this guy</a></li>
+            </ul>
+      <ul id="social-menu">
+        <li><a id="dribbble" href="#"><img src="images/social-dribbble.png"></a></li>
+        <li><a id="behance" href="#"><img src="images/social-behance.png"></a></li>
+        <li><a id="twitter" href="#"><img src="images/social-twitter.png"></a></li>
+      </ul>
+      <div class="medium-9 columns" id="content">
+        <h1>I'll help you reach your peak</h1>
+        <div class="medium-6 columns">
+                <h2>Frontend</h2>
+                <p>ive been doing frontend for 15  years</p><img class="skill-icons" src="images/frontend-icons.png">
+                <ul class="skills">
+                  <li>Html5</li>
+                  <li>css3</li>
+                  <li>css3</li>
+                  <li>xml</li>
+                  <li>javascript</li>
+                </ul>
+        </div>
+        <div class="medium-6 columns">
+                <h2>Backend</h2>
+                <p>ive been doing frontend for 15  years</p><img class="skill-icons" src="images/backend-icons.png">
+                <ul class="skills">
+                  <li>node</li>
+                  <li>python</li>
+                  <li>java</li>
+                  <li>xml</li>
+                  <li>nosql</li>
+                </ul>
+        </div>
+      </div>
+    </div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendorwhat-input.min.js"></script>
     <script src="js/foundation.min.js"></script>
-    <script>js/app.js</script>
+    <script src="js/app.js"></script>
   </body>
 </html>

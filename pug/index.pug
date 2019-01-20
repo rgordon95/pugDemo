@@ -1,9 +1,35 @@
 doctype html
 html.no-js
   head
-    include ../includes/head.pug
+    include ./includes/head.pug
     title Demo Pug Project
     
   body
     
-    include ../includes/footer.pug
+    include ./includes/mixins.pug
+    
+    .row#main-container
+      .medium-3.columns#left-bar
+    
+      include ./includes/header.pug
+      
+      
+      .medium-9.columns#content
+        h1 I'll help you reach your peak
+        
+        .medium-6.columns
+          
+          +skillinfo('Frontend', "ive been doing frontend for 15  years",
+          'images/frontend-icons.png')
+        
+          +skills('Html5', 'css3', 'css3', 'xml', 'javascript')
+        
+        .medium-6.columns
+           
+          +skillinfo('Backend', "ive been doing frontend for 15  years",
+           'images/backend-icons.png')
+         
+          +skills('node', 'python', 'java', 'xml', 'nosql')
+         
+         
+    include ./includes/footer.pug
