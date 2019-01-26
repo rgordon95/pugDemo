@@ -66,7 +66,7 @@ ul#sociall-menu li {
   text-align: center; }
 
 content {
-  background: #fff url(../images/bg.jpg) no-repeat;
+  background: #fff url("./images/mountains.jpg") no-repeat;
   min-height: 600px;
   border-radius: 0px 7px 0px 0px; }
 
